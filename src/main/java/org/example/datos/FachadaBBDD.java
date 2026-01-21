@@ -17,4 +17,12 @@ public class FachadaBBDD {
         return f.getOne(dni);
     }
 
+    public void eliminar(int opcion) throws SQLException {
+        f.eliminar(opcion);
+    }
+
+    public void modificar(Cliente a) throws SQLException {
+        f.modificar(a);
+    }
+
 }

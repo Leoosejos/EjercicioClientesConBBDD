@@ -16,7 +16,7 @@ public class Conexion {
     }
 
     public Conexion() throws SQLException {
-        String url = "jdbc:mysql://localhost:3306/alumnos?serverTimezone=UTC";
+        String url = "jdbc:mysql://localhost:3306/estudiantes?serverTimezone=UTC";
         String user = "root";
         String pass = "";
         conn = DriverManager.getConnection(url, user, pass);
